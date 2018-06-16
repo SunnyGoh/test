@@ -1,0 +1,72 @@
+[ 2018-06-12T19:33:58+08:00 ] 127.0.0.1 /index.php/api/Index/get_lottery_plan?type=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `award_plan` [ RunTime:0.0040s ]
+SQL: SELECT `serial_number`,`period`,`analysis_data` FROM `award_plan` WHERE `type` = '1' AND `lottery_type` = 1 ORDER BY id desc LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `award_plan` WHERE `award_number` <> '' AND `type` = '1' AND `lottery_type` = 1 AND ( `add_time` >= 1528732800 AND `add_time` <= 1528819199  ) ORDER BY id desc  [ RunTime:0.0010s ]
+
+[ 2018-06-12T19:34:33+08:00 ] 127.0.0.1 /index.php/api/Index/get_lottery_plan?type=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `award_plan` [ RunTime:0.0080s ]
+SQL: SELECT `serial_number`,`period`,`analysis_data` FROM `award_plan` WHERE `type` = '1' AND `lottery_type` = 1 ORDER BY id desc LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `award_plan` WHERE `award_number` <> '' AND `type` = '1' AND `lottery_type` = 1 AND ( `add_time` >= 1528732800 AND `add_time` <= 1528819199  ) ORDER BY id desc  [ RunTime:0.0000s ]
+
+[ 2018-06-12T19:34:36+08:00 ] 127.0.0.1 /index.php/api/Index/get_lottery_plan?type=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `award_plan` [ RunTime:0.0040s ]
+SQL: SELECT `serial_number`,`period`,`analysis_data` FROM `award_plan` WHERE `type` = '1' AND `lottery_type` = 1 ORDER BY id desc LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `award_plan` WHERE `award_number` <> '' AND `type` = '1' AND `lottery_type` = 1 AND ( `add_time` >= 1528732800 AND `add_time` <= 1528819199  ) ORDER BY id desc  [ RunTime:0.0000s ]
+
+[ 2018-06-12T19:35:12+08:00 ] 127.0.0.1 /index.php/api/Index/get_lottery_plan?type=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: SQLSTATE[HY000] [1045] Access denied for user 'lottery'@'localhost' (using password: YES)
+
+[ 2018-06-12T19:35:59+08:00 ] 127.0.0.1 /index.php/api/Index/get_lottery_plan?type=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: SQLSTATE[HY000] [2002] 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+
+
+[ 2018-06-12T19:36:32+08:00 ] 127.0.0.1 /index.php/api/Index/get_lottery_plan?type=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: SQLSTATE[HY000] [2002] 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+
+
+[ 2018-06-12T19:36:53+08:00 ] 127.0.0.1 /index.php/api/Index/get_lottery_plan?type=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: SQLSTATE[HY000] [2002] 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+
+

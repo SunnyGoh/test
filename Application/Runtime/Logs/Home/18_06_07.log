@@ -1,0 +1,104 @@
+[ 2018-06-07T21:21:06+08:00 ] 192.168.0.107 /index.php/Home/Index/get_lottery_data?type=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] DOMDocument::loadHTML(): Tag nav invalid in Entity, line: 24 D:\project\tp\ThinkPHP\Library\QL\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 49 D:\project\tp\ThinkPHP\Library\QL\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): Tag header invalid in Entity, line: 70 D:\project\tp\ThinkPHP\Library\QL\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): Tag nav invalid in Entity, line: 83 D:\project\tp\ThinkPHP\Library\QL\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): Tag article invalid in Entity, line: 163 D:\project\tp\ThinkPHP\Library\QL\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): Tag nav invalid in Entity, line: 164 D:\project\tp\ThinkPHP\Library\QL\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): Tag header invalid in Entity, line: 167 D:\project\tp\ThinkPHP\Library\QL\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): Tag section invalid in Entity, line: 194 D:\project\tp\ThinkPHP\Library\QL\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): Tag footer invalid in Entity, line: 1180 D:\project\tp\ThinkPHP\Library\QL\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): Tag nav invalid in Entity, line: 24 D:\project\tp\ThinkPHP\Library\QL\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 49 D:\project\tp\ThinkPHP\Library\QL\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): Tag header invalid in Entity, line: 70 D:\project\tp\ThinkPHP\Library\QL\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): Tag nav invalid in Entity, line: 83 D:\project\tp\ThinkPHP\Library\QL\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): Tag article invalid in Entity, line: 163 D:\project\tp\ThinkPHP\Library\QL\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): Tag nav invalid in Entity, line: 164 D:\project\tp\ThinkPHP\Library\QL\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): Tag header invalid in Entity, line: 167 D:\project\tp\ThinkPHP\Library\QL\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): Tag section invalid in Entity, line: 194 D:\project\tp\ThinkPHP\Library\QL\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): Tag footer invalid in Entity, line: 1180 D:\project\tp\ThinkPHP\Library\QL\phpQuery.php 第 328 行.
+SQL: SHOW COLUMNS FROM `award_plan` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `award_plan` WHERE `period` = '180607091' AND `type` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `award` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `award` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `award_plan` WHERE `period` = 92 AND `type` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `award_plan` WHERE `period` = '180607091' AND `type` = 1 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: serial_number D:\project\tp\Application\Home\Controller\IndexController.class.php 第 158 行.
+NOTIC: [8] Undefined variable: next_str_num D:\project\tp\Application\Home\Controller\IndexController.class.php 第 158 行.
+SQL: SELECT * FROM `award_plan` WHERE `period` = '180607091' AND `type` = 1 LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2018-06-07T21:21:46+08:00 ] 192.168.0.107 /index.php/Home/Index/get_lottery_data?type=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] DOMDocument::loadHTML(): Tag nav invalid in Entity, line: 24 D:\project\tp\ThinkPHP\Library\QL\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 49 D:\project\tp\ThinkPHP\Library\QL\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): Tag header invalid in Entity, line: 70 D:\project\tp\ThinkPHP\Library\QL\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): Tag nav invalid in Entity, line: 83 D:\project\tp\ThinkPHP\Library\QL\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): Tag article invalid in Entity, line: 163 D:\project\tp\ThinkPHP\Library\QL\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): Tag nav invalid in Entity, line: 164 D:\project\tp\ThinkPHP\Library\QL\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): Tag header invalid in Entity, line: 167 D:\project\tp\ThinkPHP\Library\QL\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): Tag section invalid in Entity, line: 194 D:\project\tp\ThinkPHP\Library\QL\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): Tag footer invalid in Entity, line: 1179 D:\project\tp\ThinkPHP\Library\QL\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): Tag nav invalid in Entity, line: 24 D:\project\tp\ThinkPHP\Library\QL\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 49 D:\project\tp\ThinkPHP\Library\QL\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): Tag header invalid in Entity, line: 70 D:\project\tp\ThinkPHP\Library\QL\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): Tag nav invalid in Entity, line: 83 D:\project\tp\ThinkPHP\Library\QL\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): Tag article invalid in Entity, line: 163 D:\project\tp\ThinkPHP\Library\QL\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): Tag nav invalid in Entity, line: 164 D:\project\tp\ThinkPHP\Library\QL\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): Tag header invalid in Entity, line: 167 D:\project\tp\ThinkPHP\Library\QL\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): Tag section invalid in Entity, line: 194 D:\project\tp\ThinkPHP\Library\QL\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): Tag footer invalid in Entity, line: 1179 D:\project\tp\ThinkPHP\Library\QL\phpQuery.php 第 328 行.
+SQL: SHOW COLUMNS FROM `award_plan` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `award_plan` WHERE `period` = '180607092' AND `type` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: INSERT INTO `award_plan` (`analysis_data`,`period`,`lottery_type`,`type`,`serial_number`,`award_number`,`status`) VALUES ('03459','180607092','1','1','092-094','8 6 0 6 6','2') [ RunTime:0.0000s ]
+SQL: SELECT * FROM `award_plan` WHERE `period` = 93 AND `type` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `serial_number` FROM `award_plan` WHERE ( type=1 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0000s ]
+SQL: INSERT INTO `award_plan` (`analysis_data`,`period`,`lottery_type`,`type`,`serial_number`,`award_number`,`status`) VALUES ('1458','93','1','1','094-096','8 6 0 6 6','2') [ RunTime:0.0000s ]
+SQL: SELECT * FROM `award_plan` WHERE `period` = '180607092' AND `type` = 1 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2018-06-07T21:23:50+08:00 ] 192.168.0.107 /index.php/Home/Index/get_lottery_data?type=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] DOMDocument::loadHTML(): Tag nav invalid in Entity, line: 24 D:\project\tp\ThinkPHP\Library\QL\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 49 D:\project\tp\ThinkPHP\Library\QL\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): Tag header invalid in Entity, line: 70 D:\project\tp\ThinkPHP\Library\QL\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): Tag nav invalid in Entity, line: 83 D:\project\tp\ThinkPHP\Library\QL\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): Tag article invalid in Entity, line: 163 D:\project\tp\ThinkPHP\Library\QL\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): Tag nav invalid in Entity, line: 164 D:\project\tp\ThinkPHP\Library\QL\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): Tag header invalid in Entity, line: 167 D:\project\tp\ThinkPHP\Library\QL\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): Tag section invalid in Entity, line: 194 D:\project\tp\ThinkPHP\Library\QL\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): Tag footer invalid in Entity, line: 1179 D:\project\tp\ThinkPHP\Library\QL\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): Tag nav invalid in Entity, line: 24 D:\project\tp\ThinkPHP\Library\QL\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 49 D:\project\tp\ThinkPHP\Library\QL\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): Tag header invalid in Entity, line: 70 D:\project\tp\ThinkPHP\Library\QL\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): Tag nav invalid in Entity, line: 83 D:\project\tp\ThinkPHP\Library\QL\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): Tag article invalid in Entity, line: 163 D:\project\tp\ThinkPHP\Library\QL\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): Tag nav invalid in Entity, line: 164 D:\project\tp\ThinkPHP\Library\QL\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): Tag header invalid in Entity, line: 167 D:\project\tp\ThinkPHP\Library\QL\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): Tag section invalid in Entity, line: 194 D:\project\tp\ThinkPHP\Library\QL\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): Tag footer invalid in Entity, line: 1179 D:\project\tp\ThinkPHP\Library\QL\phpQuery.php 第 328 行.
+SQL: SHOW COLUMNS FROM `award_plan` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `award_plan` WHERE `period` = '180607092' AND `type` = 1 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: kai D:\project\tp\Application\Home\Controller\IndexController.class.php 第 87 行.
+SQL: SHOW COLUMNS FROM `award` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `award` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `award_plan` WHERE `period` = 93 AND `type` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `award_plan` WHERE `period` = '180607092' AND `type` = 1 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: serial_number D:\project\tp\Application\Home\Controller\IndexController.class.php 第 158 行.
+NOTIC: [8] Undefined variable: next_str_num D:\project\tp\Application\Home\Controller\IndexController.class.php 第 158 行.
+SQL: SELECT * FROM `award_plan` WHERE `period` = '180607092' AND `type` = 1 LIMIT 1   [ RunTime:0.0000s ]
+

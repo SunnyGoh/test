@@ -1,0 +1,514 @@
+[ 2018-06-15T13:18:45+08:00 ] 127.0.0.1 /cron/index/racing
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-06-15T13:20:06+08:00 ] 127.0.0.1 /cron/index/racing
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `award_plans` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `award_plans` WHERE `lottery_type` = 2 AND `type` = 1 ORDER BY id  desc LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [2] implode(): Invalid arguments passed D:\project\tp\Application\Cron\Controller\IndexController.class.php 第 775 行.
+
+[ 2018-06-15T13:20:58+08:00 ] 127.0.0.1 /cron/index/racing
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `award_plans` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `award_plans` WHERE `lottery_type` = 2 AND `type` = 1 ORDER BY id  desc LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [2] implode(): Invalid arguments passed D:\project\tp\Application\Cron\Controller\IndexController.class.php 第 775 行.
+
+[ 2018-06-15T13:21:21+08:00 ] 127.0.0.1 /cron/index/racing
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `award_plans` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `award_plans` WHERE `lottery_type` = 2 AND `type` = 1 ORDER BY id  desc LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [2] implode(): Invalid arguments passed D:\project\tp\Application\Cron\Controller\IndexController.class.php 第 775 行.
+
+[ 2018-06-15T13:25:27+08:00 ] 127.0.0.1 /cron/index/racing
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `award_plans` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `award_plans` WHERE `lottery_type` = 2 AND `type` = 1 ORDER BY id  desc LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [2] implode(): Invalid arguments passed D:\project\tp\Application\Cron\Controller\IndexController.class.php 第 775 行.
+
+[ 2018-06-15T13:26:07+08:00 ] 127.0.0.1 /cron/index/racing
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `award_plans` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `award_plans` WHERE `lottery_type` = 2 AND `type` = 1 ORDER BY id  desc LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2018-06-15T13:38:48+08:00 ] 127.0.0.1 /cron/index/racing
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `award_plans` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `award_plans` WHERE `lottery_type` = 2 AND `type` = 1 ORDER BY id  desc LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2018-06-15T13:40:24+08:00 ] 127.0.0.1 /cron/index/racing
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `award_plans` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `award_plans` WHERE `lottery_type` = 2 AND `type` = 1 ORDER BY id  desc LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2018-06-15T13:40:38+08:00 ] 127.0.0.1 /cron/index/racing
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `award_plans` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `award_plans` WHERE `lottery_type` = 2 AND `type` = 1 ORDER BY id  desc LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2018-06-15T13:40:53+08:00 ] 127.0.0.1 /cron/index/racing
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `award_plans` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `award_plans` WHERE `lottery_type` = 2 AND `type` = 1 ORDER BY id  desc LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2018-06-15T15:24:53+08:00 ] 127.0.0.1 /cron/index/racing
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-06-15T15:25:19+08:00 ] 127.0.0.1 /cron/index/racing
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `award` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `award` WHERE `lottery_type` = 2 AND `type` = 1 AND `period` = '687581' LIMIT 1   [ RunTime:0.0000s ]
+SQL: INSERT INTO `award` (`period`,`award_number`,`type`,`lottery_type`) VALUES ('687581','07 01 02 03 10 06 04 05 09 08','1','2') [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `award_plans` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `award_plans` WHERE `lottery_type` = 2 AND `type` = 1 ORDER BY id  desc LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [2] implode(): Invalid arguments passed D:\project\tp\Application\Cron\Controller\IndexController.class.php 第 780 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given D:\project\tp\Application\Cron\Controller\IndexController.class.php 第 781 行.
+SQL: UPDATE `award_plans` SET `status`='2',`number`='2' WHERE `id` = 10 AND `type` = 1 AND `lottery_type` = 2 [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-06-15T15:26:27+08:00 ] 127.0.0.1 /cron/index/racing
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `award` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `award` WHERE `lottery_type` = 2 AND `type` = 1 AND `period` = '687581' LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-06-15T15:26:53+08:00 ] 127.0.0.1 /cron/index/racing
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `award` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `award` WHERE `lottery_type` = 2 AND `type` = 1 AND `period` = '687581' LIMIT 1   [ RunTime:0.0000s ]
+SQL: INSERT INTO `award` (`period`,`award_number`,`type`,`lottery_type`) VALUES ('687581','07 01 02 03 10 06 04 05 09 08','1','2') [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `award_plans` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `award_plans` WHERE `lottery_type` = 2 AND `type` = 1 ORDER BY id  desc LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [2] implode(): Invalid arguments passed D:\project\tp\Application\Cron\Controller\IndexController.class.php 第 780 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given D:\project\tp\Application\Cron\Controller\IndexController.class.php 第 781 行.
+SQL: UPDATE `award_plans` SET `status`='2',`period`='581',`award_number`='07 01 02 03 10 06 04 05 09 08',`award_plan`='272-274 冠军 [03 04 05 06 07] 581期 07 01 02 03 10 06 04 05 09 08错' WHERE `id` = 10 AND `type` = 1 AND `lottery_type` = 2 [ RunTime:0.0000s ]
+SQL: INSERT INTO `award_plans` (`analysis_data`,`lottery_type`,`type`,`number`,`serial_number`) VALUES ('01 04 05 08 10','2','1','0','582-584') [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-06-15T15:30:15+08:00 ] 127.0.0.1 /cron/index/racing
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `award` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `award` WHERE `lottery_type` = 2 AND `type` = 1 AND `period` = '687582' LIMIT 1   [ RunTime:0.0010s ]
+SQL: INSERT INTO `award` (`period`,`award_number`,`type`,`lottery_type`) VALUES ('687582','09 07 06 08 04 01 10 05 03 02','1','2') [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `award_plans` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `award_plans` WHERE `lottery_type` = 2 AND `type` = 1 ORDER BY id  desc LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [2] implode(): Invalid arguments passed D:\project\tp\Application\Cron\Controller\IndexController.class.php 第 780 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given D:\project\tp\Application\Cron\Controller\IndexController.class.php 第 781 行.
+SQL: UPDATE `award_plans` SET `status`='2',`number`='1' WHERE `id` = 14 AND `type` = 1 AND `lottery_type` = 2 [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-06-15T15:39:14+08:00 ] 127.0.0.1 /cron/index/racing
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `award` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `award` WHERE `lottery_type` = 2 AND `type` = 1 AND `period` = '687584' LIMIT 1   [ RunTime:0.0010s ]
+SQL: INSERT INTO `award` (`period`,`award_number`,`type`,`lottery_type`) VALUES ('687584','07 09 02 05 01 04 10 03 08 06','1','2') [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `award_plans` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `award_plans` WHERE `lottery_type` = 2 AND `type` = 1 ORDER BY id  desc LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [2] implode(): Invalid arguments passed D:\project\tp\Application\Cron\Controller\IndexController.class.php 第 780 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given D:\project\tp\Application\Cron\Controller\IndexController.class.php 第 781 行.
+SQL: UPDATE `award_plans` SET `status`='2',`number`='2' WHERE `id` = 14 AND `type` = 1 AND `lottery_type` = 2 [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-06-15T15:40:00+08:00 ] 127.0.0.1 /cron/index/racing
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `award` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `award` WHERE `lottery_type` = 2 AND `type` = 1 AND `period` = '687584' LIMIT 1   [ RunTime:0.0000s ]
+SQL: INSERT INTO `award` (`period`,`award_number`,`type`,`lottery_type`) VALUES ('687584','07 09 02 05 01 04 10 03 08 06','1','2') [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `award_plans` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `award_plans` WHERE `lottery_type` = 2 AND `type` = 1 ORDER BY id  desc LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [2] implode(): Invalid arguments passed D:\project\tp\Application\Cron\Controller\IndexController.class.php 第 780 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given D:\project\tp\Application\Cron\Controller\IndexController.class.php 第 781 行.
+SQL: UPDATE `award_plans` SET `status`='2',`period`='584',`award_number`='07 09 02 05 01 04 10 03 08 06',`award_plan`='582-584 冠军 [07 04 05 08 10] 584期 错' WHERE `id` = 14 AND `type` = 1 AND `lottery_type` = 2 [ RunTime:0.0010s ]
+SQL: INSERT INTO `award_plans` (`analysis_data`,`lottery_type`,`type`,`number`,`serial_number`) VALUES ('02 03 04 06 10','2','1','0','585-587') [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-06-15T15:43:12+08:00 ] 127.0.0.1 /cron/index/racing
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `award` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `award` WHERE `lottery_type` = 2 AND `type` = 1 AND `period` = '687585' LIMIT 1   [ RunTime:0.0000s ]
+SQL: INSERT INTO `award` (`period`,`award_number`,`type`,`lottery_type`) VALUES ('687585','07 06 01 03 10 09 02 04 05 08','1','2') [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `award_plans` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `award_plans` WHERE `lottery_type` = 2 AND `type` = 1 ORDER BY id  desc LIMIT 1   [ RunTime:0.0000s ]
+SQL: INSERT INTO `award_plans` (`analysis_data`,`lottery_type`,`type`,`serial_number`,`number`,`period`,`award_number`,`status`,`award_plan`) VALUES ('02 03 05 07 08','2','1','585-587','1','585','07 06 01 03 10 09 02 04 05 08','1','585-587个位计划[02 03 05 07 08]585期07 06 01 03 10 09 02 04 05 08中') [ RunTime:0.0000s ]
+SQL: INSERT INTO `award_plans` (`analysis_data`,`lottery_type`,`type`,`number`,`serial_number`) VALUES ('02 03 07 08 10','2','1','0','586-588') [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-06-15T15:44:10+08:00 ] 127.0.0.1 /cron/index/racing
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `award` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `award` WHERE `lottery_type` = 2 AND `type` = 1 AND `period` = '687585' LIMIT 1   [ RunTime:0.0010s ]
+SQL: INSERT INTO `award` (`period`,`award_number`,`type`,`lottery_type`) VALUES ('687585','07 06 01 03 10 09 02 04 05 08','1','2') [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `award_plans` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `award_plans` WHERE `lottery_type` = 2 AND `type` = 1 ORDER BY id  desc LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [2] implode(): Invalid arguments passed D:\project\tp\Application\Cron\Controller\IndexController.class.php 第 780 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given D:\project\tp\Application\Cron\Controller\IndexController.class.php 第 781 行.
+SQL: UPDATE `award_plans` SET `status`='2',`number`='2' WHERE `id` = 1 AND `type` = 1 AND `lottery_type` = 2 [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-06-15T15:44:35+08:00 ] 127.0.0.1 /cron/index/racing
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `award` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `award` WHERE `lottery_type` = 2 AND `type` = 1 AND `period` = '687585' LIMIT 1   [ RunTime:0.0000s ]
+SQL: INSERT INTO `award` (`period`,`award_number`,`type`,`lottery_type`) VALUES ('687585','07 06 01 03 10 09 02 04 05 08','1','2') [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `award_plans` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `award_plans` WHERE `lottery_type` = 2 AND `type` = 1 ORDER BY id  desc LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [2] implode(): Invalid arguments passed D:\project\tp\Application\Cron\Controller\IndexController.class.php 第 780 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given D:\project\tp\Application\Cron\Controller\IndexController.class.php 第 781 行.
+SQL: UPDATE `award_plans` SET `status`='2',`period`='585',`award_number`='07 06 01 03 10 09 02 04 05 08',`award_plan`='585-587 冠军 [02 03 05 06 08] 585期 错' WHERE `id` = 1 AND `type` = 1 AND `lottery_type` = 2 [ RunTime:0.0000s ]
+SQL: INSERT INTO `award_plans` (`analysis_data`,`lottery_type`,`type`,`number`,`serial_number`) VALUES ('02 04 05 06 09','2','1','0','586-588') [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-06-15T15:45:12+08:00 ] 127.0.0.1 /cron/index/racing
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `award` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `award` WHERE `lottery_type` = 2 AND `type` = 1 AND `period` = '687585' LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-06-15T15:45:25+08:00 ] 127.0.0.1 /cron/index/racing
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `award` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `award` WHERE `lottery_type` = 2 AND `type` = 1 AND `period` = '687585' LIMIT 1   [ RunTime:0.0000s ]
+SQL: INSERT INTO `award` (`period`,`award_number`,`type`,`lottery_type`) VALUES ('687585','07 06 01 03 10 09 02 04 05 08','1','2') [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `award_plans` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `award_plans` WHERE `lottery_type` = 2 AND `type` = 1 ORDER BY id  desc LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [2] implode(): Invalid arguments passed D:\project\tp\Application\Cron\Controller\IndexController.class.php 第 780 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given D:\project\tp\Application\Cron\Controller\IndexController.class.php 第 781 行.
+SQL: UPDATE `award_plans` SET `status`='2',`period`='585',`award_number`='07 06 01 03 10 09 02 04 05 08',`award_plan`='585-587 冠军 [02 03 05 06 07] 585期 错' WHERE `id` = 1 AND `type` = 1 AND `lottery_type` = 2 [ RunTime:0.0000s ]
+SQL: INSERT INTO `award_plans` (`analysis_data`,`lottery_type`,`type`,`number`,`serial_number`) VALUES ('02 03 04 08 09','2','1','0','586-588') [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-06-15T15:52:09+08:00 ] 127.0.0.1 /cron/index/racing
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `award` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `award` WHERE `lottery_type` = 2 AND `type` = 1 AND `period` = '687586' LIMIT 1   [ RunTime:0.0000s ]
+SQL: INSERT INTO `award` (`period`,`award_number`,`type`,`lottery_type`) VALUES ('687586','10 07 02 06 01 09 08 04 05 03','1','2') [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `award_plans` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `award_plans` WHERE `lottery_type` = 2 AND `type` = 1 ORDER BY id  desc LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [2] implode(): Invalid arguments passed D:\project\tp\Application\Cron\Controller\IndexController.class.php 第 780 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given D:\project\tp\Application\Cron\Controller\IndexController.class.php 第 781 行.
+SQL: UPDATE `award_plans` SET `status`='2',`number`='1' WHERE `id` = 4 AND `type` = 1 AND `lottery_type` = 2 [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-06-15T15:53:31+08:00 ] 127.0.0.1 /cron/index/racing
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `award` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `award` WHERE `lottery_type` = 2 AND `type` = 1 AND `period` = '687587' LIMIT 1   [ RunTime:0.0000s ]
+SQL: INSERT INTO `award` (`period`,`award_number`,`type`,`lottery_type`) VALUES ('687587','02 03 01 05 07 04 10 08 06 09','1','2') [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `award_plans` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `award_plans` WHERE `lottery_type` = 2 AND `type` = 1 ORDER BY id  desc LIMIT 1   [ RunTime:0.0000s ]
+SQL: INSERT INTO `award_plans` (`analysis_data`,`lottery_type`,`type`,`serial_number`,`number`,`period`,`award_number`,`status`,`award_plan`) VALUES ('02 03 05 06 07','2','1','587-589','1','587','02 03 01 05 07 04 10 08 06 09','1','587-589个位计划[02 03 05 06 07]587期02 03 01 05 07 04 10 08 06 09中') [ RunTime:0.0000s ]
+SQL: INSERT INTO `award_plans` (`analysis_data`,`lottery_type`,`type`,`number`,`serial_number`) VALUES ('02 03 04 06 09','2','1','0','588-590') [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-06-15T15:55:09+08:00 ] 127.0.0.1 /cron/index/racing
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `award` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `award` WHERE `lottery_type` = 2 AND `type` = 1 AND `period` = '687587' LIMIT 1   [ RunTime:0.0010s ]
+SQL: INSERT INTO `award` (`period`,`award_number`,`type`,`lottery_type`) VALUES ('687587','02 03 01 05 07 04 10 08 06 09','1','2') [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `award_plans` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `award_plans` WHERE `lottery_type` = 2 AND `type` = 1 ORDER BY id  desc LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [2] implode(): Invalid arguments passed D:\project\tp\Application\Cron\Controller\IndexController.class.php 第 780 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given D:\project\tp\Application\Cron\Controller\IndexController.class.php 第 781 行.
+SQL: UPDATE `award_plans` SET `status`='2',`number`='2' WHERE `id` = 1 AND `type` = 1 AND `lottery_type` = 2 [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-06-15T15:56:42+08:00 ] 127.0.0.1 /cron/index/racing
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `award` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `award` WHERE `lottery_type` = 2 AND `type` = 1 AND `period` = '687587' LIMIT 1   [ RunTime:0.0000s ]
+SQL: INSERT INTO `award` (`period`,`award_number`,`type`,`lottery_type`) VALUES ('687587','02 03 01 05 07 04 10 08 06 09','1','2') [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `award_plans` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `award_plans` WHERE `lottery_type` = 2 AND `type` = 1 ORDER BY id  desc LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2018-06-15T15:57:12+08:00 ] 127.0.0.1 /cron/index/racing
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `award` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `award` WHERE `lottery_type` = 2 AND `type` = 1 AND `period` = '687587' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `award_plans` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `award_plans` WHERE `lottery_type` = 2 AND `type` = 1 ORDER BY id  desc LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2018-06-15T18:33:08+08:00 ] 127.0.0.1 /cron/index/get_lottery_data?type=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `award` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `award` WHERE `lottery_type` = 1 AND `type` = 1 AND `period` = '180615075' LIMIT 1   [ RunTime:0.0000s ]
+SQL: INSERT INTO `award` (`period`,`award_number`,`type`,`lottery_type`) VALUES ('180615075','8 8 0 4 6','1','1') [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `award_plans` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `award_plans` WHERE `lottery_type` = 1 AND `type` = 1 ORDER BY id  desc LIMIT 1   [ RunTime:0.0000s ]
+SQL: INSERT INTO `award_plans` (`analysis`,`lottery_type`,`type`,`serial`,`number`) VALUES ('23589','1','1','075-077','1') [ RunTime:0.0020s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-06-15T18:33:13+08:00 ] 127.0.0.1 /cron/index/get_lottery_data?type=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `award` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `award` WHERE `lottery_type` = 1 AND `type` = 2 AND `period` = '180615075' LIMIT 1   [ RunTime:0.0000s ]
+SQL: INSERT INTO `award` (`period`,`award_number`,`type`,`lottery_type`) VALUES ('180615075','8 8 0 4 6','2','1') [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `award_plans` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `award_plans` WHERE `lottery_type` = 1 AND `type` = 2 ORDER BY id  desc LIMIT 1   [ RunTime:0.0000s ]
+SQL: INSERT INTO `award_plans` (`analysis`,`lottery_type`,`type`,`serial`,`number`,`period`,`award_number`,`status`,`award_plan`) VALUES ('0124678-0125679','1','2','075-077','1','075','8 8 0 4 6','1','075-077 后二直选 [0124678-0125679] 075期 8 8 0 4 6 中') [ RunTime:0.0020s ]
+SQL: INSERT INTO `award_plans` (`lottery_type`,`type`,`number`) VALUES ('1','2','0') [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-06-15T18:33:16+08:00 ] 127.0.0.1 /cron/index/get_lottery_data?type=3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `award` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `award` WHERE `lottery_type` = 1 AND `type` = 3 AND `period` = '180615075' LIMIT 1   [ RunTime:0.0000s ]
+SQL: INSERT INTO `award` (`period`,`award_number`,`type`,`lottery_type`) VALUES ('180615075','8 8 0 4 6','3','1') [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `award_plans` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `award_plans` WHERE `lottery_type` = 1 AND `type` = 3 ORDER BY id  desc LIMIT 1   [ RunTime:0.0000s ]
+SQL: INSERT INTO `award_plans` (`analysis`,`lottery_type`,`type`,`serial`,`number`) VALUES ('0134578-1235678-0234689','1','3','075-077','1') [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-06-15T18:33:19+08:00 ] 127.0.0.1 /cron/index/get_lottery_data?type=4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `award` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `award` WHERE `lottery_type` = 1 AND `type` = 4 AND `period` = '180615075' LIMIT 1   [ RunTime:0.0000s ]
+SQL: INSERT INTO `award` (`period`,`award_number`,`type`,`lottery_type`) VALUES ('180615075','8 8 0 4 6','4','1') [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `award_plans` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `award_plans` WHERE `lottery_type` = 1 AND `type` = 4 ORDER BY id  desc LIMIT 1   [ RunTime:0.0000s ]
+SQL: INSERT INTO `award_plans` (`analysis`,`lottery_type`,`type`,`serial`,`number`,`period`,`award_number`,`status`,`award_plan`) VALUES ('012345678','1','4','075-077','1','075','8 8 0 4 6','1','075-077 后三组六 [012345678] 075期 8 8 0 4 6 中') [ RunTime:0.0020s ]
+SQL: INSERT INTO `award_plans` (`analysis`,`lottery_type`,`type`,`number`,`serial`) VALUES ('012356789','1','4','0','076-078') [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-06-15T18:57:13+08:00 ] 127.0.0.1 /cron/index/racing
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `award` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `award` WHERE `lottery_type` = 2 AND `type` = 1 AND `period` = '687623' LIMIT 1   [ RunTime:0.0000s ]
+SQL: INSERT INTO `award` (`period`,`award_number`,`type`,`lottery_type`) VALUES ('687623','10 08 04 07 06 05 01 02 03 09','1','2') [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `award_plans` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `award_plans` WHERE `lottery_type` = 2 AND `type` = 1 ORDER BY id  desc LIMIT 1   [ RunTime:0.0000s ]
+SQL: INSERT INTO `award_plans` (`analysis`,`lottery_type`,`type`,`serial`,`number`,`period`,`award_number`,`status`,`award_plan`) VALUES ('01 03 07 09 10','2','1','623-625','1','623','10 08 04 07 06 05 01 02 03 09','1','623-625 冠军 [01 03 07 09 10] 623期 中') [ RunTime:0.0020s ]
+SQL: INSERT INTO `award_plans` (`analysis`,`lottery_type`,`type`,`number`,`serial`) VALUES ('03 04 06 07 10','2','1','0','624-626') [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-06-15T18:57:21+08:00 ] 127.0.0.1 /cron/index/racing
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `award` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `award` WHERE `lottery_type` = 2 AND `type` = 1 AND `period` = '687624' LIMIT 1   [ RunTime:0.0000s ]
+SQL: INSERT INTO `award` (`period`,`award_number`,`type`,`lottery_type`) VALUES ('687624','04 07 01 10 03 08 09 02 06 05','1','2') [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `award_plans` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `award_plans` WHERE `lottery_type` = 2 AND `type` = 1 ORDER BY id  desc LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `award_plans` SET `status`='1',`number`='1',`period`='624',`award_number`='04 07 01 10 03 08 09 02 06 05',`award_plan`='624-626 冠军 [03 04 06 07 10] 624期 中' WHERE `id` = 8 AND `type` = 1 AND `lottery_type` = 2 [ RunTime:0.0020s ]
+SQL: INSERT INTO `award_plans` (`analysis`,`lottery_type`,`type`,`number`,`serial`) VALUES ('01 04 06 07 08','2','1','0','625-627') [ RunTime:0.0020s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-06-15T20:15:14+08:00 ] 127.0.0.1 /cron/index/racing
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `award` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `award` WHERE `lottery_type` = 2 AND `type` = 1 AND `period` = '687639' LIMIT 1   [ RunTime:0.0000s ]
+SQL: INSERT INTO `award` (`period`,`award_number`,`type`,`lottery_type`) VALUES ('687639','09 04 07 10 02 06 05 08 03 01','1','2') [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `award_plans` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `award_plans` WHERE `lottery_type` = 2 AND `type` = 1 ORDER BY id  desc LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `award_plans` SET `status`='2',`number`='1' WHERE `id` = 9 AND `type` = 1 AND `lottery_type` = 2 [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+

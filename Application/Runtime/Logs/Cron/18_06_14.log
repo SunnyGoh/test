@@ -1,0 +1,26 @@
+[ 2018-06-14T14:24:31+08:00 ] 127.0.0.1 /cron/index/get_lottery_data?type=3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `award` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `award` WHERE `lottery_type` = 1 AND `type` = 3 AND `period` = '180614050' LIMIT 1   [ RunTime:0.0000s ]
+SQL: INSERT INTO `award` (`period`,`award_number`,`type`,`lottery_type`) VALUES ('180614050','6 7 3 1 2','3','1') [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `award_plans` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `award_plans` WHERE `lottery_type` = 1 AND `type` = 3 ORDER BY id  desc LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `award_plans` SET `status`='2',`number`='2' WHERE `id` = 5 AND `type` = 3 AND `lottery_type` = 1 [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-06-14T15:28:03+08:00 ] 127.0.0.1 /index.php/Cron/index/test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 非法操作:test
+
