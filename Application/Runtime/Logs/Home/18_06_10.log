@@ -1,0 +1,360 @@
+[ 2018-06-10T12:27:17+08:00 ] 127.0.0.1 /Home/Index/get_lottery_data?type=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-06-10T12:27:42+08:00 ] 127.0.0.1 /Home/Index/get_lottery_data?type=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] DOMDocument::loadHTML(): Tag nav invalid in Entity, line: 24 D:\project\tp\ThinkPHP\Library\QL\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 49 D:\project\tp\ThinkPHP\Library\QL\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): Tag header invalid in Entity, line: 70 D:\project\tp\ThinkPHP\Library\QL\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): Tag nav invalid in Entity, line: 83 D:\project\tp\ThinkPHP\Library\QL\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): Tag article invalid in Entity, line: 163 D:\project\tp\ThinkPHP\Library\QL\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): Tag nav invalid in Entity, line: 164 D:\project\tp\ThinkPHP\Library\QL\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): Tag header invalid in Entity, line: 167 D:\project\tp\ThinkPHP\Library\QL\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): Tag section invalid in Entity, line: 194 D:\project\tp\ThinkPHP\Library\QL\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): Tag footer invalid in Entity, line: 1233 D:\project\tp\ThinkPHP\Library\QL\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): Tag nav invalid in Entity, line: 24 D:\project\tp\ThinkPHP\Library\QL\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 49 D:\project\tp\ThinkPHP\Library\QL\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): Tag header invalid in Entity, line: 70 D:\project\tp\ThinkPHP\Library\QL\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): Tag nav invalid in Entity, line: 83 D:\project\tp\ThinkPHP\Library\QL\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): Tag article invalid in Entity, line: 163 D:\project\tp\ThinkPHP\Library\QL\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): Tag nav invalid in Entity, line: 164 D:\project\tp\ThinkPHP\Library\QL\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): Tag header invalid in Entity, line: 167 D:\project\tp\ThinkPHP\Library\QL\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): Tag section invalid in Entity, line: 194 D:\project\tp\ThinkPHP\Library\QL\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): Tag footer invalid in Entity, line: 1233 D:\project\tp\ThinkPHP\Library\QL\phpQuery.php 第 328 行.
+SQL: SHOW COLUMNS FROM `award_plan` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `award_plan` WHERE `period` = '180610038' AND `type` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: INSERT INTO `award_plan` (`analysis_data`,`period`,`lottery_type`,`type`,`add_time`,`serial_number`,`award_number`,`status`) VALUES ('01458','180610038','1','1','1528604855','038-040','2 5 3 7 9','2') [ RunTime:0.0000s ]
+SQL: SELECT * FROM `award_plan` WHERE `period` = '180610039' AND `type` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: INSERT INTO `award_plan` (`analysis_data`,`period`,`lottery_type`,`type`,`serial_number`) VALUES ('01389','180610039','1','1','039-041') [ RunTime:0.0000s ]
+SQL: SELECT * FROM `award_plan` WHERE `award_number` <> '' AND `type` = 1 AND `lottery_type` = 1 AND `add_time` <= 1528646399 ORDER BY id desc  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-06-10T12:29:09+08:00 ] 127.0.0.1 /Home/Index/test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 非法操作:test
+
+[ 2018-06-10T12:29:29+08:00 ] 127.0.0.1 /Home/Index/test
+ERR: 非法操作:test
+
+[ 2018-06-10T18:47:03+08:00 ] 146.88.202.225 /index.php/home/Index/get_lottery_data?type=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000584s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001330s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.011178s ]
+NOTIC: [2] curl_setopt(): CURLOPT_FOLLOWLOCATION cannot be activated when an open_basedir is set /www/wwwroot/lottery/ThinkPHP/Library/QL/QueryList.class.php 第 290 行.
+NOTIC: [2] DOMDocument::loadHTML(): Invalid char in CDATA 0x1F in Entity, line: 2 /www/wwwroot/lottery/ThinkPHP/Library/QL/phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): Input is not proper UTF-8, indicate encoding ! in Entity, line: 2 /www/wwwroot/lottery/ThinkPHP/Library/QL/phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): Invalid char in CDATA 0x8 in Entity, line: 2 /www/wwwroot/lottery/ThinkPHP/Library/QL/phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): Invalid char in CDATA 0x1F in Entity, line: 2 /www/wwwroot/lottery/ThinkPHP/Library/QL/phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): Input is not proper UTF-8, indicate encoding ! in Entity, line: 2 /www/wwwroot/lottery/ThinkPHP/Library/QL/phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): Invalid char in CDATA 0x8 in Entity, line: 2 /www/wwwroot/lottery/ThinkPHP/Library/QL/phpQuery.php 第 328 行.
+NOTIC: [8] Undefined offset: 0 /www/wwwroot/lottery/Application/Home/Controller/IndexController.class.php 第 38 行.
+
+[ 2018-06-10T18:48:37+08:00 ] 146.88.202.225 /index.php/home/Index/get_lottery_data?type=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000903s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002030s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002137s ]
+NOTIC: [2] curl_setopt(): CURLOPT_FOLLOWLOCATION cannot be activated when an open_basedir is set /www/wwwroot/lottery/ThinkPHP/Library/QL/QueryList.class.php 第 290 行.
+NOTIC: [2] DOMDocument::loadHTML(): Invalid char in CDATA 0x1F in Entity, line: 2 /www/wwwroot/lottery/ThinkPHP/Library/QL/phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): Input is not proper UTF-8, indicate encoding ! in Entity, line: 2 /www/wwwroot/lottery/ThinkPHP/Library/QL/phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): Invalid char in CDATA 0x8 in Entity, line: 2 /www/wwwroot/lottery/ThinkPHP/Library/QL/phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): Invalid char in CDATA 0x1F in Entity, line: 2 /www/wwwroot/lottery/ThinkPHP/Library/QL/phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): Input is not proper UTF-8, indicate encoding ! in Entity, line: 2 /www/wwwroot/lottery/ThinkPHP/Library/QL/phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): Invalid char in CDATA 0x8 in Entity, line: 2 /www/wwwroot/lottery/ThinkPHP/Library/QL/phpQuery.php 第 328 行.
+
+[ 2018-06-10T19:13:37+08:00 ] 146.88.202.225 /index.php/home/Index/get_lottery_data?type=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000893s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001960s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002221s ]
+NOTIC: [2] curl_setopt(): CURLOPT_FOLLOWLOCATION cannot be activated when an open_basedir is set /www/wwwroot/lottery/ThinkPHP/Library/QL/QueryList.class.php 第 290 行.
+NOTIC: [2] DOMDocument::loadHTML(): Invalid char in CDATA 0x1F in Entity, line: 2 /www/wwwroot/lottery/ThinkPHP/Library/QL/phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): Input is not proper UTF-8, indicate encoding ! in Entity, line: 2 /www/wwwroot/lottery/ThinkPHP/Library/QL/phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): Invalid char in CDATA 0x8 in Entity, line: 2 /www/wwwroot/lottery/ThinkPHP/Library/QL/phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): Invalid char in CDATA 0x1F in Entity, line: 2 /www/wwwroot/lottery/ThinkPHP/Library/QL/phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): Input is not proper UTF-8, indicate encoding ! in Entity, line: 2 /www/wwwroot/lottery/ThinkPHP/Library/QL/phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): Invalid char in CDATA 0x8 in Entity, line: 2 /www/wwwroot/lottery/ThinkPHP/Library/QL/phpQuery.php 第 328 行.
+NOTIC: [8] Undefined offset: 0 /www/wwwroot/lottery/Application/Home/Controller/IndexController.class.php 第 36 行.
+
+[ 2018-06-10T19:19:08+08:00 ] 146.88.202.225 /index.php/home/Index/get_lottery_data?type=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000574s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000650s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000754s ]
+NOTIC: [2] curl_setopt(): CURLOPT_FOLLOWLOCATION cannot be activated when an open_basedir is set /www/wwwroot/lottery/ThinkPHP/Library/QL/QueryList.class.php 第 290 行.
+NOTIC: [2] DOMDocument::loadHTML(): Invalid char in CDATA 0x1F in Entity, line: 2 /www/wwwroot/lottery/ThinkPHP/Library/QL/phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): Input is not proper UTF-8, indicate encoding ! in Entity, line: 2 /www/wwwroot/lottery/ThinkPHP/Library/QL/phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): Invalid char in CDATA 0x8 in Entity, line: 2 /www/wwwroot/lottery/ThinkPHP/Library/QL/phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): Invalid char in CDATA 0x1F in Entity, line: 2 /www/wwwroot/lottery/ThinkPHP/Library/QL/phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): Input is not proper UTF-8, indicate encoding ! in Entity, line: 2 /www/wwwroot/lottery/ThinkPHP/Library/QL/phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): Invalid char in CDATA 0x8 in Entity, line: 2 /www/wwwroot/lottery/ThinkPHP/Library/QL/phpQuery.php 第 328 行.
+
+[ 2018-06-10T19:24:33+08:00 ] 146.88.202.225 /index.php/home/Index/get_lottery_data?type=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.008260s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000557s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000657s ]
+NOTIC: [2] curl_setopt(): CURLOPT_FOLLOWLOCATION cannot be activated when an open_basedir is set /www/wwwroot/lottery/ThinkPHP/Library/QL/QueryList.class.php 第 290 行.
+NOTIC: [2] DOMDocument::loadHTML(): Invalid char in CDATA 0x1F in Entity, line: 2 /www/wwwroot/lottery/ThinkPHP/Library/QL/phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): Input is not proper UTF-8, indicate encoding ! in Entity, line: 2 /www/wwwroot/lottery/ThinkPHP/Library/QL/phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): Invalid char in CDATA 0x8 in Entity, line: 2 /www/wwwroot/lottery/ThinkPHP/Library/QL/phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): Invalid char in CDATA 0x1F in Entity, line: 2 /www/wwwroot/lottery/ThinkPHP/Library/QL/phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): Input is not proper UTF-8, indicate encoding ! in Entity, line: 2 /www/wwwroot/lottery/ThinkPHP/Library/QL/phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): Invalid char in CDATA 0x8 in Entity, line: 2 /www/wwwroot/lottery/ThinkPHP/Library/QL/phpQuery.php 第 328 行.
+
+[ 2018-06-10T19:25:40+08:00 ] 146.88.202.225 /index.php/home/Index/get_lottery_data?type=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000621s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.007663s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007772s ]
+NOTIC: [2] curl_setopt(): CURLOPT_FOLLOWLOCATION cannot be activated when an open_basedir is set /www/wwwroot/lottery/ThinkPHP/Library/QL/QueryList.class.php 第 290 行.
+NOTIC: [2] DOMDocument::loadHTML(): Invalid char in CDATA 0x1F in Entity, line: 2 /www/wwwroot/lottery/ThinkPHP/Library/QL/phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): Input is not proper UTF-8, indicate encoding ! in Entity, line: 2 /www/wwwroot/lottery/ThinkPHP/Library/QL/phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): Invalid char in CDATA 0x8 in Entity, line: 2 /www/wwwroot/lottery/ThinkPHP/Library/QL/phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): Invalid char in CDATA 0x1F in Entity, line: 2 /www/wwwroot/lottery/ThinkPHP/Library/QL/phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): Input is not proper UTF-8, indicate encoding ! in Entity, line: 2 /www/wwwroot/lottery/ThinkPHP/Library/QL/phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): Invalid char in CDATA 0x8 in Entity, line: 2 /www/wwwroot/lottery/ThinkPHP/Library/QL/phpQuery.php 第 328 行.
+
+[ 2018-06-10T19:25:59+08:00 ] 146.88.202.225 /index.php/home/Index/get_lottery_data?type=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001761s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000881s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000984s ]
+NOTIC: [2] curl_setopt(): CURLOPT_FOLLOWLOCATION cannot be activated when an open_basedir is set /www/wwwroot/lottery/ThinkPHP/Library/QL/QueryList.class.php 第 290 行.
+NOTIC: [2] DOMDocument::loadHTML(): Invalid char in CDATA 0x1F in Entity, line: 2 /www/wwwroot/lottery/ThinkPHP/Library/QL/phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): Input is not proper UTF-8, indicate encoding ! in Entity, line: 2 /www/wwwroot/lottery/ThinkPHP/Library/QL/phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): Invalid char in CDATA 0x8 in Entity, line: 2 /www/wwwroot/lottery/ThinkPHP/Library/QL/phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): Invalid char in CDATA 0x1F in Entity, line: 2 /www/wwwroot/lottery/ThinkPHP/Library/QL/phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): Input is not proper UTF-8, indicate encoding ! in Entity, line: 2 /www/wwwroot/lottery/ThinkPHP/Library/QL/phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): Invalid char in CDATA 0x8 in Entity, line: 2 /www/wwwroot/lottery/ThinkPHP/Library/QL/phpQuery.php 第 328 行.
+
+[ 2018-06-10T19:26:14+08:00 ] 146.88.202.225 /index.php/home/Index/get_lottery_data?type=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000662s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.008074s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008513s ]
+NOTIC: [2] curl_setopt(): CURLOPT_FOLLOWLOCATION cannot be activated when an open_basedir is set /www/wwwroot/lottery/ThinkPHP/Library/QL/QueryList.class.php 第 290 行.
+NOTIC: [2] DOMDocument::loadHTML(): Invalid char in CDATA 0x1F in Entity, line: 2 /www/wwwroot/lottery/ThinkPHP/Library/QL/phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): Input is not proper UTF-8, indicate encoding ! in Entity, line: 2 /www/wwwroot/lottery/ThinkPHP/Library/QL/phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): Invalid char in CDATA 0x8 in Entity, line: 2 /www/wwwroot/lottery/ThinkPHP/Library/QL/phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): Invalid char in CDATA 0x1F in Entity, line: 2 /www/wwwroot/lottery/ThinkPHP/Library/QL/phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): Input is not proper UTF-8, indicate encoding ! in Entity, line: 2 /www/wwwroot/lottery/ThinkPHP/Library/QL/phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): Invalid char in CDATA 0x8 in Entity, line: 2 /www/wwwroot/lottery/ThinkPHP/Library/QL/phpQuery.php 第 328 行.
+
+[ 2018-06-10T19:27:16+08:00 ] 146.88.202.225 /index.php/home/Index/get_lottery_data?type=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002522s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000983s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001103s ]
+NOTIC: [2] curl_setopt(): CURLOPT_FOLLOWLOCATION cannot be activated when an open_basedir is set /www/wwwroot/lottery/ThinkPHP/Library/QL/QueryList.class.php 第 290 行.
+NOTIC: [2] DOMDocument::loadHTML(): Invalid char in CDATA 0x1F in Entity, line: 2 /www/wwwroot/lottery/ThinkPHP/Library/QL/phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): Input is not proper UTF-8, indicate encoding ! in Entity, line: 2 /www/wwwroot/lottery/ThinkPHP/Library/QL/phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): Invalid char in CDATA 0x8 in Entity, line: 2 /www/wwwroot/lottery/ThinkPHP/Library/QL/phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): Invalid char in CDATA 0x1F in Entity, line: 2 /www/wwwroot/lottery/ThinkPHP/Library/QL/phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): Input is not proper UTF-8, indicate encoding ! in Entity, line: 2 /www/wwwroot/lottery/ThinkPHP/Library/QL/phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): Invalid char in CDATA 0x8 in Entity, line: 2 /www/wwwroot/lottery/ThinkPHP/Library/QL/phpQuery.php 第 328 行.
+
+[ 2018-06-10T19:27:23+08:00 ] 146.88.202.225 /index.php/home/Index/get_lottery_data?type=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000050s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000902s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.017859s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.018042s ]
+NOTIC: [2] curl_setopt(): CURLOPT_FOLLOWLOCATION cannot be activated when an open_basedir is set /www/wwwroot/lottery/ThinkPHP/Library/QL/QueryList.class.php 第 290 行.
+NOTIC: [2] DOMDocument::loadHTML(): Invalid char in CDATA 0x1F in Entity, line: 2 /www/wwwroot/lottery/ThinkPHP/Library/QL/phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): Input is not proper UTF-8, indicate encoding ! in Entity, line: 2 /www/wwwroot/lottery/ThinkPHP/Library/QL/phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): Invalid char in CDATA 0x8 in Entity, line: 2 /www/wwwroot/lottery/ThinkPHP/Library/QL/phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): Invalid char in CDATA 0x1F in Entity, line: 2 /www/wwwroot/lottery/ThinkPHP/Library/QL/phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): Input is not proper UTF-8, indicate encoding ! in Entity, line: 2 /www/wwwroot/lottery/ThinkPHP/Library/QL/phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): Invalid char in CDATA 0x8 in Entity, line: 2 /www/wwwroot/lottery/ThinkPHP/Library/QL/phpQuery.php 第 328 行.
+
+[ 2018-06-10T19:28:11+08:00 ] 146.88.202.225 /index.php/home/Index/get_lottery_data?type=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000643s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000855s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000926s ]
+NOTIC: [2] curl_setopt(): CURLOPT_FOLLOWLOCATION cannot be activated when an open_basedir is set /www/wwwroot/lottery/ThinkPHP/Library/QL/QueryList.class.php 第 290 行.
+NOTIC: [2] DOMDocument::loadHTML(): Invalid char in CDATA 0x1F in Entity, line: 2 /www/wwwroot/lottery/ThinkPHP/Library/QL/phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): Input is not proper UTF-8, indicate encoding ! in Entity, line: 2 /www/wwwroot/lottery/ThinkPHP/Library/QL/phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): Invalid char in CDATA 0x8 in Entity, line: 2 /www/wwwroot/lottery/ThinkPHP/Library/QL/phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): Invalid char in CDATA 0x1F in Entity, line: 2 /www/wwwroot/lottery/ThinkPHP/Library/QL/phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): Input is not proper UTF-8, indicate encoding ! in Entity, line: 2 /www/wwwroot/lottery/ThinkPHP/Library/QL/phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): Invalid char in CDATA 0x8 in Entity, line: 2 /www/wwwroot/lottery/ThinkPHP/Library/QL/phpQuery.php 第 328 行.
+
+[ 2018-06-10T19:28:33+08:00 ] 146.88.202.225 /index.php/home/Index/get_lottery_data?type=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003924s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000660s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000858s ]
+NOTIC: [2] curl_setopt(): CURLOPT_FOLLOWLOCATION cannot be activated when an open_basedir is set /www/wwwroot/lottery/ThinkPHP/Library/QL/QueryList.class.php 第 290 行.
+NOTIC: [2] DOMDocument::loadHTML(): Invalid char in CDATA 0x1F in Entity, line: 2 /www/wwwroot/lottery/ThinkPHP/Library/QL/phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): Input is not proper UTF-8, indicate encoding ! in Entity, line: 2 /www/wwwroot/lottery/ThinkPHP/Library/QL/phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): Invalid char in CDATA 0x8 in Entity, line: 2 /www/wwwroot/lottery/ThinkPHP/Library/QL/phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): Invalid char in CDATA 0x1F in Entity, line: 2 /www/wwwroot/lottery/ThinkPHP/Library/QL/phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): Input is not proper UTF-8, indicate encoding ! in Entity, line: 2 /www/wwwroot/lottery/ThinkPHP/Library/QL/phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): Invalid char in CDATA 0x8 in Entity, line: 2 /www/wwwroot/lottery/ThinkPHP/Library/QL/phpQuery.php 第 328 行.
+
+[ 2018-06-10T19:28:58+08:00 ] 146.88.202.225 /index.php/home/Index/get_lottery_data?type=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.006248s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000864s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000936s ]
+NOTIC: [2] curl_setopt(): CURLOPT_FOLLOWLOCATION cannot be activated when an open_basedir is set /www/wwwroot/lottery/ThinkPHP/Library/QL/QueryList.class.php 第 290 行.
+NOTIC: [2] DOMDocument::loadHTML(): Invalid char in CDATA 0x1F in Entity, line: 2 /www/wwwroot/lottery/ThinkPHP/Library/QL/phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): Input is not proper UTF-8, indicate encoding ! in Entity, line: 2 /www/wwwroot/lottery/ThinkPHP/Library/QL/phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): Invalid char in CDATA 0x8 in Entity, line: 2 /www/wwwroot/lottery/ThinkPHP/Library/QL/phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): Invalid char in CDATA 0x1F in Entity, line: 2 /www/wwwroot/lottery/ThinkPHP/Library/QL/phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): Input is not proper UTF-8, indicate encoding ! in Entity, line: 2 /www/wwwroot/lottery/ThinkPHP/Library/QL/phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): Invalid char in CDATA 0x8 in Entity, line: 2 /www/wwwroot/lottery/ThinkPHP/Library/QL/phpQuery.php 第 328 行.
+
+[ 2018-06-10T19:29:07+08:00 ] 146.88.202.225 /index.php/home/Index/get_lottery_data?type=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000526s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000632s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000768s ]
+NOTIC: [2] curl_setopt(): CURLOPT_FOLLOWLOCATION cannot be activated when an open_basedir is set /www/wwwroot/lottery/ThinkPHP/Library/QL/QueryList.class.php 第 290 行.
+NOTIC: [2] DOMDocument::loadHTML(): Invalid char in CDATA 0x1F in Entity, line: 2 /www/wwwroot/lottery/ThinkPHP/Library/QL/phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): Input is not proper UTF-8, indicate encoding ! in Entity, line: 2 /www/wwwroot/lottery/ThinkPHP/Library/QL/phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): Invalid char in CDATA 0x8 in Entity, line: 2 /www/wwwroot/lottery/ThinkPHP/Library/QL/phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): Invalid char in CDATA 0x1F in Entity, line: 2 /www/wwwroot/lottery/ThinkPHP/Library/QL/phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): Input is not proper UTF-8, indicate encoding ! in Entity, line: 2 /www/wwwroot/lottery/ThinkPHP/Library/QL/phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): Invalid char in CDATA 0x8 in Entity, line: 2 /www/wwwroot/lottery/ThinkPHP/Library/QL/phpQuery.php 第 328 行.
+
+[ 2018-06-10T19:39:38+08:00 ] 146.88.202.225 /index.php/home/Index/get_lottery_data?type=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001260s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000974s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001109s ]
+NOTIC: [2] curl_setopt(): CURLOPT_FOLLOWLOCATION cannot be activated when an open_basedir is set /www/wwwroot/lottery/ThinkPHP/Library/QL/QueryList.class.php 第 290 行.
+NOTIC: [2] DOMDocument::loadHTML(): Invalid char in CDATA 0x1F in Entity, line: 2 /www/wwwroot/lottery/ThinkPHP/Library/QL/phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): Input is not proper UTF-8, indicate encoding ! in Entity, line: 2 /www/wwwroot/lottery/ThinkPHP/Library/QL/phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): Invalid char in CDATA 0x8 in Entity, line: 2 /www/wwwroot/lottery/ThinkPHP/Library/QL/phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): Invalid char in CDATA 0x1F in Entity, line: 2 /www/wwwroot/lottery/ThinkPHP/Library/QL/phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): Input is not proper UTF-8, indicate encoding ! in Entity, line: 2 /www/wwwroot/lottery/ThinkPHP/Library/QL/phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): Invalid char in CDATA 0x8 in Entity, line: 2 /www/wwwroot/lottery/ThinkPHP/Library/QL/phpQuery.php 第 328 行.
+
+[ 2018-06-10T19:47:11+08:00 ] 146.88.202.225 /index.php/home/Index/get_lottery_data?type=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000909s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000735s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000895s ]
+NOTIC: [2] curl_setopt(): CURLOPT_FOLLOWLOCATION cannot be activated when an open_basedir is set /www/wwwroot/lottery/ThinkPHP/Library/QL/QueryList.class.php 第 290 行.
+NOTIC: [2] DOMDocument::loadHTML(): Invalid char in CDATA 0x1F in Entity, line: 2 /www/wwwroot/lottery/ThinkPHP/Library/QL/phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): Input is not proper UTF-8, indicate encoding ! in Entity, line: 2 /www/wwwroot/lottery/ThinkPHP/Library/QL/phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): Invalid char in CDATA 0x8 in Entity, line: 2 /www/wwwroot/lottery/ThinkPHP/Library/QL/phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): Invalid char in CDATA 0x1F in Entity, line: 2 /www/wwwroot/lottery/ThinkPHP/Library/QL/phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): Input is not proper UTF-8, indicate encoding ! in Entity, line: 2 /www/wwwroot/lottery/ThinkPHP/Library/QL/phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): Invalid char in CDATA 0x8 in Entity, line: 2 /www/wwwroot/lottery/ThinkPHP/Library/QL/phpQuery.php 第 328 行.
+
+[ 2018-06-10T19:55:21+08:00 ] 146.88.202.225 /index.php/home/Index/get_lottery_data?type=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.007810s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004892s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004998s ]
+NOTIC: [2] curl_setopt(): CURLOPT_FOLLOWLOCATION cannot be activated when an open_basedir is set /www/wwwroot/lottery/ThinkPHP/Library/QL/QueryList.class.php 第 290 行.
+NOTIC: [2] DOMDocument::loadHTML(): Invalid char in CDATA 0x1F in Entity, line: 2 /www/wwwroot/lottery/ThinkPHP/Library/QL/phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): Input is not proper UTF-8, indicate encoding ! in Entity, line: 2 /www/wwwroot/lottery/ThinkPHP/Library/QL/phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): Invalid char in CDATA 0x8 in Entity, line: 2 /www/wwwroot/lottery/ThinkPHP/Library/QL/phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): Invalid char in CDATA 0x1F in Entity, line: 2 /www/wwwroot/lottery/ThinkPHP/Library/QL/phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): Input is not proper UTF-8, indicate encoding ! in Entity, line: 2 /www/wwwroot/lottery/ThinkPHP/Library/QL/phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): Invalid char in CDATA 0x8 in Entity, line: 2 /www/wwwroot/lottery/ThinkPHP/Library/QL/phpQuery.php 第 328 行.
+
+[ 2018-06-10T19:55:24+08:00 ] 146.88.202.225 /index.php/home/Index/get_lottery_data?type=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000843s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002654s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002846s ]
+NOTIC: [2] curl_setopt(): CURLOPT_FOLLOWLOCATION cannot be activated when an open_basedir is set /www/wwwroot/lottery/ThinkPHP/Library/QL/QueryList.class.php 第 290 行.
+NOTIC: [2] DOMDocument::loadHTML(): Invalid char in CDATA 0x1F in Entity, line: 2 /www/wwwroot/lottery/ThinkPHP/Library/QL/phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): Input is not proper UTF-8, indicate encoding ! in Entity, line: 2 /www/wwwroot/lottery/ThinkPHP/Library/QL/phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): Invalid char in CDATA 0x8 in Entity, line: 2 /www/wwwroot/lottery/ThinkPHP/Library/QL/phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): Invalid char in CDATA 0x1F in Entity, line: 2 /www/wwwroot/lottery/ThinkPHP/Library/QL/phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): Input is not proper UTF-8, indicate encoding ! in Entity, line: 2 /www/wwwroot/lottery/ThinkPHP/Library/QL/phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): Invalid char in CDATA 0x8 in Entity, line: 2 /www/wwwroot/lottery/ThinkPHP/Library/QL/phpQuery.php 第 328 行.
+
+[ 2018-06-10T20:02:54+08:00 ] 146.88.202.225 /index.php/home/Index/get_lottery_data?type=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000851s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000867s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001132s ]
+
+[ 2018-06-10T20:03:30+08:00 ] 146.88.202.225 /index.php/home/Index/get_lottery_data?type=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000698s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000725s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000821s ]
+NOTIC: [8] Undefined variable: date /www/wwwroot/lottery/Application/Home/Controller/IndexController.class.php 第 13 行.
+NOTIC: [2] curl_setopt(): CURLOPT_FOLLOWLOCATION cannot be activated when an open_basedir is set /www/wwwroot/lottery/Application/Home/Controller/IndexController.class.php 第 20 行.
+
+[ 2018-06-10T20:11:34+08:00 ] 146.88.202.225 /index.php/home/Index/get_lottery_data?type=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.013541s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000812s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000880s ]
+NOTIC: [2] curl_setopt(): CURLOPT_FOLLOWLOCATION cannot be activated when an open_basedir is set /www/wwwroot/lottery/ThinkPHP/Library/QL/QueryList.class.php 第 290 行.
+NOTIC: [2] DOMDocument::loadHTML(): Invalid char in CDATA 0x1F in Entity, line: 2 /www/wwwroot/lottery/ThinkPHP/Library/QL/phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): Input is not proper UTF-8, indicate encoding ! in Entity, line: 2 /www/wwwroot/lottery/ThinkPHP/Library/QL/phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): Invalid char in CDATA 0x8 in Entity, line: 2 /www/wwwroot/lottery/ThinkPHP/Library/QL/phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): Invalid char in CDATA 0x1F in Entity, line: 2 /www/wwwroot/lottery/ThinkPHP/Library/QL/phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): Input is not proper UTF-8, indicate encoding ! in Entity, line: 2 /www/wwwroot/lottery/ThinkPHP/Library/QL/phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): Invalid char in CDATA 0x8 in Entity, line: 2 /www/wwwroot/lottery/ThinkPHP/Library/QL/phpQuery.php 第 328 行.
+

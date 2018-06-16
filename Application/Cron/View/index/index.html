@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+</body>
+</html>
+<script src="__PUBLIC__/Js/jquery.js"></script>
+<script>
+    $.post("http://www.tp.com/Home/Index/get_lottery_data?type=1", function(data) {
+        var last=dtaaSONString();     console.log(obj);return false;
+        $(".result").html(data);
+    });
+</script>
